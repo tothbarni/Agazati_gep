@@ -1,7 +1,7 @@
 import minosites
 import sorozat
-from helyzet import Helyzet
-
+import helyzet_tagfuggvenyek
+"""
 print("I/A:")
 minosites.minosites()
 
@@ -16,8 +16,8 @@ sorozat.konzolra_ir(db)
 
 #II/F:
 sorozat.fajl_ir(db)
-
-gepek = Helyzet.beolvasas("gep.txt")
-Helyzet.gepek_szama(gepek)
-Helyzet.atlag(gepek)
-Helyzet.legkisebb(gepek)
+"""
+gepek = helyzet_tagfuggvenyek.beolvasas("gep.txt")
+helyzet_tagfuggvenyek.gepek_szama(gepek)
+helyzet_tagfuggvenyek.atlag(gepek)
+helyzet_tagfuggvenyek.legkisebb(gepek)
